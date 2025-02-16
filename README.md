@@ -13,6 +13,10 @@ Known tags and settings suggested to opt out of having your content used for AI 
 # Other Opt-Outs
 
 * **OpenAI** (Includes ChaGPT and DALL·E): You can opt-out of having your input and output to their services used to train by emailing your organization ID to [support@openai.com](mailto:support@openai.com). *Note: This doesn't include any data they scraped to train their model.*
+- You can now opt out of OpenAI through the mobile apps, iOS & Android:
+  - Find the "settings", Go to personalization and checked off the Memory option.
+  - Next go to "Data Controls" and turn off "Improve the model for everyone".
+  - Go down to "VOICE MODE", and uncheck the boxes that says "Include your audio recordings" and "Include your video recordings".
 * **StabilityAI**: Stable Diffusion 3 will honor opt-out requests on [haveibeentrained.com](https://haveibeentrained.com/).
 * **AWS**: "AWS may be using your data to train its AI models, and you may have unwittingly consented to it. Prepare to jump through a series of complex hoops to stop it." -- [How to Stop Feeding AWS’s AI With Your Data](https://www.lastweekinaws.com/blog/How-to-Stop-Feeding-AWSs-AI-With-Your-Data/)
 * **Substack** "If you do NOT want your publication to be used to train AI, open your publication, go to Settings > Publication details and switch it on."
