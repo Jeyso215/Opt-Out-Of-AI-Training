@@ -1,36 +1,40 @@
 # AI Training Opt Out
+
 Known tags and settings suggested to opt out of having your content used for AI training.
 
-# Contents
+## Table of Contents
 
-* [**robots.txt**](/robots.txt) A copy-and-paste collection of tags to add to your own robots.txt. (You can automate generation of this file with [darkvisitors.com](https://darkvisitors.com/))
-* [**meta-tags.html**](/meta-tags.html) A copy-and-paste collection of tags to add to your own `<head>`
-* [**headers.txt**](/headers.txt) HTTP headers you can add to your responses. This is more more involved and installation is outside the scope of this document.
-* [**ai.txt**](/ai.txt) An alternative to robots.txt created by Spawning, the company behind [haveibeentrained.com](https://haveibeentrained.com/).
-* [**ip-ranges.txt**](/ip-ranges.txt) Known IP ranges for AI crawlers. These will change over time, so links to the canonical source is included.
-* [**tdmrep.json**](/.well-known/tdmrep.json) A Web protocol, capable of expressing the reservation of rights relative to text & data mining (TDM)
+- [Contents](#contents)
+- [Other Opt-Outs](#other-opt-outs)
+- [References](#references)
 
-# Other Opt-Outs
+## Contents
 
-* **OpenAI** (Includes ChaGPT and DALL·E): You can opt-out of having your input and output to their services used to train by emailing your organization ID to [support@openai.com](mailto:support@openai.com). *Note: This doesn't include any data they scraped to train their model.*
-- You can now opt out of OpenAI through the mobile apps, iOS & Android:
-  - Find the "settings", Go to personalization and checked off the Memory option.
-  - Next go to "Data Controls" and turn off "Improve the model for everyone".
-  - Go down to "VOICE MODE", and uncheck the boxes that says "Include your audio recordings" and "Include your video recordings".
-* **StabilityAI**: Stable Diffusion 3 will honor opt-out requests on [haveibeentrained.com](https://haveibeentrained.com/).
-* **AWS**: "AWS may be using your data to train its AI models, and you may have unwittingly consented to it. Prepare to jump through a series of complex hoops to stop it." -- [How to Stop Feeding AWS’s AI With Your Data](https://www.lastweekinaws.com/blog/How-to-Stop-Feeding-AWSs-AI-With-Your-Data/)
-* **Substack** "If you do NOT want your publication to be used to train AI, open your publication, go to Settings > Publication details and switch it on."
-* **[Wordpress](https://wordpress.com/support/privacy-settings/#prevent-third-party-sharing)** and **[Tumblr](https://help.tumblr.com/hc/en-us/articles/115011611747-Privacy-options#01H692KHGF5N3SVHDV02P5W34P)** are both opt-out for your post content.
-* **The Stack** Find your repo(s) on [Am I in The Stack?](https://huggingface.co/spaces/bigcode/in-the-stack) and then click Opt-Out at the bottom to open a request.
+- [**robots.txt**](/robots.txt): A collection of tags to add to your own robots.txt. Automate generation with [darkvisitors.com](https://darkvisitors.com/).
+- [**meta-tags.html**](/meta-tags.html): Tags to add to your own `<head>`.
+- [**headers.txt**](/headers.txt): HTTP headers for responses. Installation is outside the scope of this document.
+- [**ai.txt**](/ai.txt): An alternative to robots.txt by Spawning, the company behind [haveibeentrained.com](https://haveibeentrained.com/).
+- [**ip-ranges.txt**](/ip-ranges.txt): Known IP ranges for AI crawlers. Links to the canonical source included.
+- [**tdmrep.json**](/.well-known/tdmrep.json): Web protocol for expressing the reservation of rights relative to text & data mining (TDM).
 
-# References
+## Other Opt-Outs
 
-* [How to Block ChatGPT From Using Your Website Content](https://www.searchenginejournal.com/how-to-block-chatgpt-from-using-your-website-content/478384/)
-* [All Deviations Are Opted Out of AI Datasets](https://www.deviantart.com/team/journal/UPDATE-All-Deviations-Are-Opted-Out-of-AI-Datasets-934500371)
-* [OpenAI Terms of Use](https://openai.com/terms/)
-* [Stability AI plans to let artists opt out of Stable Diffusion 3 image training](https://arstechnica.com/information-technology/2022/12/stability-ai-plans-to-let-artists-opt-out-of-stable-diffusion-3-image-training/)
-* [Stop AI Data Mining in its Tracks with AI.txt](https://site.spawning.ai/spawning-ai-txt)
-* [Sites scramble to block ChatGPT web crawler after instructions emerge](https://arstechnica.com/information-technology/2023/08/openai-details-how-to-keep-chatgpt-from-gobbling-up-website-data/)
-* [An update on web publisher controls](https://blog.google/technology/ai/an-update-on-web-publisher-controls/) -- Google's VP of Trust
-* [Dark Visitors: A List of Known AI Agents on the Internet](https://darkvisitors.com/) 
-* [TDM Reservation Protocol (TDMRep)](https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20240202/)
+- **OpenAI**: Email your organization ID to [support@openai.com](mailto:support@openai.com) to opt out.
+  - Mobile apps (iOS & Android): Go to settings > personalization and uncheck the Memory option. Turn off "Improve the model for everyone" under Data Controls. Uncheck "Include your audio/video recordings" under VOICE MODE.
+- **StabilityAI**: Opt out at [haveibeentrained.com](https://haveibeentrained.com/).
+- **AWS**: Follow steps described in [this article](https://example.com) to stop AI data usage.
+- **Substack**: Go to Settings > Publication details and switch it on.
+- **[WordPress](https://wordpress.com/support/privacy-settings/#prevent-third-party-sharing)** and **[Tumblr](https://help.tumblr.com/hc/en-us/articles/115011611747-Privacy-options#01H692KHGF5N3SV)**: Follow the provided links.
+- **The Stack**: Find your repo(s) on [Am I in The Stack?](https://huggingface.co/spaces/bigcode/in-the-stack) and click Opt-Out at the bottom to open a request.
+
+## References
+
+- [How to Block ChatGPT From Using Your Website Content](https://www.searchenginejournal.com/how-to-block-chatgpt-from-using-your-website-content/478384/)
+- [All Deviations Are Opted Out of AI Datasets](https://www.deviantart.com/team/journal/UPDATE-All-Deviations-Are-Opted-Out-of-AI-Datasets-934500371)
+- [OpenAI Terms of Use](https://openai.com/terms/)
+- [Stability AI plans to let artists opt out of Stable Diffusion 3 image training](https://arstechnica.com/information-technology/2022/12/stability-ai-plans-to-let-artists-opt-out-of-stable-diffusion-3-image-training/)
+- [Stop AI Data Mining in its Tracks with AI.txt](https://site.spawning.ai/spawning-ai-txt)
+- [Sites scramble to block ChatGPT web crawler after instructions emerge](https://arstechnica.com/information-technology/2023/08/openai-details-how-to-keep-chatgpt-from-gobbling-up-website-data/)
+- [An update on web publisher controls](https://blog.google/technology/ai/an-update-on-web-publisher-controls/)
+- [Dark Visitors: A List of Known AI Agents on the Internet](https://darkvisitors.com/)
+- [TDM Reservation Protocol (TDMRep)](https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20240202/)
